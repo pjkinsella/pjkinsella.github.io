@@ -236,7 +236,7 @@ a:after {
 }
 
 
-#footwrap t {
+#footwrap .title-head {
 	font-weight: 700;
 }
 
@@ -269,7 +269,7 @@ a:after {
 	color: #2f2f2f;
 }
 
-.desc t {
+.desc .title-head {
 	color: #34495e;
 	font-weight: 700;
 }
@@ -280,7 +280,7 @@ a:after {
 	background: #34495e;
 }
 
-.desc more {
+.desc .more {
 	color: #95a5a6;
 }
 
