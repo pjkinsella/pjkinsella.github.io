@@ -1,10 +1,10 @@
 var doughnutData = [
 {
-  value: 80,
+  value: 90,
   color:"#1abc9c"
 },
 {
-  value : 20,
+  value : 10,
   color : "#ecf0f1"
 }
 ];
@@ -48,11 +48,11 @@ var myDoughnut = new Chart(document.getElementById("machinedesign").getContext("
 
 var doughnutData = [
 {
-  value: 90,
+  value: 95,
   color:"#1abc9c"
 },
 {
-  value : 10,
+  value : 5,
   color : "#ecf0f1"
 }
 ];
@@ -69,3 +69,27 @@ var doughnutData = [
 }
 ];
 var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+
+var doughnutData = [
+{
+  value: 95,
+  color:"#1abc9c"
+},
+{
+  value : 5,
+  color : "#ecf0f1"
+}
+];
+var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+
+var doughnutData = [
+{
+  value: 30,
+  color:"#1abc9c"
+},
+{
+  value : 70,
+  color : "#ecf0f1"
+}
+];
+var myDoughnut = new Chart(document.getElementById("django").getContext("2d")).Doughnut(doughnutData);
